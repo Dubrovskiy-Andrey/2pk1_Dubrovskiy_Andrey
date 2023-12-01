@@ -17,7 +17,9 @@
 
                 return count;
             }
+            Console.WriteLine("Введите текст: ");
             string str = Console.ReadLine();
+            Console.WriteLine("Введите входящие слова в текст: ");
             string subStr = Console.ReadLine();
             int Bxod = CountSubstringOccurrences(str, subStr);
             Console.WriteLine($"Количество вхождений '{subStr}' в строку '{str}': {Bxod}");
